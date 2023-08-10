@@ -6,9 +6,18 @@ body {
 
 #board {
     background-color: limegreen;
-    height: 120px;
+    height: 100vh;
+    position: relative;
 }
 
 #player {
-    background-color: orange;
+    background-color: rgb(228, 153, 14);
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
 }
+#obstacle {
+    background-color: rgb(133, 23, 235);
+    position: absolute;
+}
+#page
