@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: lightsalmon;
+}
+
+#board {
+    background-color: limegreen;
+    height: 120px;
+}
+
+#player {
+    background-color: orange;
+}
