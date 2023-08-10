@@ -1,23 +1,22 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: lightsalmon;
 }
-
 #board {
-    background-color: limegreen;
+    background-color: rgb(172, 201, 213);
     height: 100vh;
     position: relative;
 }
-
 #player {
-    background-color: rgb(228, 153, 14);
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
-}
-#obstacle {
-    background-color: rgb(133, 23, 235);
+    background-color: rgb(255, 0, 166);
     position: absolute;
 }
-#page
+.obstacle {
+    background-color: rgb(90, 19, 156);
+    position: absolute;
+}
+
+#page-gameover {
+    text-align: center;
+    background-color: rgb(166, 161, 171);
+}
